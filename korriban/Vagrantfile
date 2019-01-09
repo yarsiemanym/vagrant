@@ -1,0 +1,20 @@
+Vagrant.configure("2") do |config|
+    
+    config.vm.box = "jhakonen/windows-10-n-pro-en-x86_64"
+    config.vm.guest = "windows"
+    config.vm.network "private_network", ip: "192.168.33.10"
+    config.vm.network "forwarded_port", guest: 5985, host: 55985, id: "winrm", auto_correct: true
+    config.vm.communicator = "winrm"
+    config.winrm.username = "vagrant"
+    config.winrm.password = "vagrant"
+
+    config.vm.provider "virtualbox" do |vb|
+        vb.gui = true
+        vb.memory = "8192"
+        vb.cpus = 2
+        vb.customize ["modifyvm", :id, "--vram", "64"]
+        vb.customize ["modifyvm", :id, "--clipboard", "bidirectional"]
+        vb.name = "Korriban"
+    end
+
+  end
