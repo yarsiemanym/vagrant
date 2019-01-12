@@ -10,7 +10,7 @@ The base Windows box from which I provision all my other Windows boxes.  Windows
 
 ### Korriban
 
-A basic .NET Framework development environment with IIS, Visual Studio 2017, and GitKraken.
+A basic .NET Framework development environment with IIS, Visual Studio 2017, and GitKraken built on top of [Windows_10_Pro_amd64](https://app.vagrantup.com/yarsiemanym/boxes/windows_10_pro_amd64)
 
 ## Ubuntu
 
@@ -20,4 +20,4 @@ The base Ubuntu box from which I provision all my other Ubuntu boxes.  Ubuntu 18
 
 ### Nar-Shaddaa
 
-A box for things I'd rather not do on my host system.
+A box for things I'd rather not do on my host system.  built on top of [Ubuntu_18.04.1_Desktop_amd64](https://app.vagrantup.com/yarsiemanym/boxes/windows_10_pro_amd64)

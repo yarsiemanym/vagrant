@@ -13,5 +13,5 @@ Vagrant.configure('2') do |config|
     vb.name = 'Nar Shaddaa'
   end
 
-  config.vm.provision 'file', 'shell/install.sh'
+  config.vm.provision 'shell', path: 'shell/install.sh'
 end

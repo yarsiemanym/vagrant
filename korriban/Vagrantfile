@@ -17,5 +17,5 @@ Vagrant.configure('2') do |config|
     vb.name = 'Korriban'
   end
 
-  config.vm.provision 'file', 'shell/install.ps1'
+  config.vm.provision 'shell', path: 'shell/install.ps1'
 end
