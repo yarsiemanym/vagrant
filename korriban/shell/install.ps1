@@ -9,7 +9,7 @@ C:\ProgramData\Boxstarter\BoxstarterShell.ps1
 Install-WindowsUpdate
 Disable-UAC
 Update-ExecutionPolicy
-Set-WindowsExplorerOptions -EnableShowFileExtensions
+Set-WindowsExplorerOptions -EnableShowFullPathInTitleBar -EnableShowFileExtensions
 
 # Install packages using Chocolatey commands
 chocolatey feature enable -n=allowGlobalConfirmation
