@@ -32,9 +32,11 @@ choco install URLRewrite
 choco install Firefox
 choco install GitKraken
 choco install Git
-choco install NotepadPlusPlus
 choco install VisualStudio2017Professional
 choco install VisualStudio2017-Workload-NetWeb
 choco install VisualStudio2017-Workload-ManagedDesktop
-choco install DotNet3.5
+choco install DotNet3.5 # Why is this needed?
+choco install dotnetcore-sdk 
+choco install vscode
+choco install nuget.commandline 
 chocolatey feature disable -n=allowGlobalConfirmation
