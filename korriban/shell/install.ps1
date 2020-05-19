@@ -43,7 +43,7 @@ choco install Firefox
 choco install GitKraken
 choco install Git
 choco install SQL-Server-Management-Studio
-choco install VisualStudio2017Community
+choco install VisualStudio2017Professional
 choco install VisualStudio2017-Workload-NetWeb
 choco install VisualStudio2017-Workload-ManagedDesktop
 choco install NodeJS.Install
